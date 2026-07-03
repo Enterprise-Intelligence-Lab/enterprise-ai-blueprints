@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/banner.png" width="100%">
+  <img src="assets/banner.png" width="100%" alt="Enterprise AI Blueprints">
 </p>
 
 <h1 align="center">
@@ -7,15 +7,11 @@
 </h1>
 
 <p align="center">
-
-Reference Architectures • Design Patterns • Implementation Guides
-
+<b>Reference Architectures • Design Patterns • Implementation Guides</b>
 </p>
 
 <p align="center">
-
-Enterprise AI • Agentic AI • LLMOps • Cloud • Platform Engineering
-
+Enterprise AI • Agentic AI • LLMOps • Cloud Architecture • Platform Engineering
 </p>
 
 <p align="center">
@@ -28,87 +24,124 @@ Enterprise AI • Agentic AI • LLMOps • Cloud • Platform Engineering
 
 <img src="https://img.shields.io/github/issues/Enterprise-Intelligence-Lab/enterprise-ai-blueprints?style=for-the-badge">
 
+<img src="https://img.shields.io/github/last-commit/Enterprise-Intelligence-Lab/enterprise-ai-blueprints?style=for-the-badge">
+
 </p>
 
 > [!NOTE]
 >
-> Enterprise AI Blueprints provides reusable reference architectures, implementation patterns, and deployment guidance for building scalable enterprise AI solutions.
+> **Project Status**
+>
+> Enterprise AI Blueprints is currently under active development.
+>
+> The repository provides reusable Enterprise AI architectures, implementation guides, deployment patterns, and best practices for production-ready AI systems.
 
 ---
 
-## 📑 Table of Contents
+# 📑 Table of Contents
 
-- Overview
-- Why Blueprints
-- Blueprint Categories
-- Architecture
-- Technology Stack
-- Repository Structure
-- Documentation
-- Roadmap
-- Contributing
-- License
+- [Overview](#-overview)
+- [Why Enterprise AI Blueprints](#-why-enterprise-ai-blueprints)
+- [Blueprint Categories](#-blueprint-categories)
+- [Reference Architecture](#-reference-architecture)
+- [Technology Stack](#-technology-stack)
+- [Repository Structure](#-repository-structure)
+- [Documentation](#-documentation)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 # 🚀 Overview
 
-Enterprise AI Blueprints is an open-source collection of production-ready architectures, implementation guides, deployment patterns, and best practices for Enterprise AI.
+Enterprise AI Blueprints is an open-source collection of production-ready Enterprise AI architectures, implementation guides, deployment patterns, and technical best practices.
 
-The goal is to help organizations accelerate AI adoption using proven architectural patterns.
+The repository is designed to help architects, engineers, and technology leaders accelerate Enterprise AI adoption using reusable blueprints that reduce implementation complexity and improve architectural consistency.
 
 ---
 
 # 💡 Why Enterprise AI Blueprints?
 
-Building Enterprise AI requires more than selecting an LLM.
+Building Enterprise AI requires more than choosing a Large Language Model.
 
-Organizations need:
+Organizations need guidance for:
 
 - AI Architecture
-- Security
-- Governance
-- Data Pipelines
-- Agent Orchestration
-- Deployment Standards
-- Monitoring
-- Responsible AI
+- Agentic AI Design
+- LLMOps
+- RAG Systems
+- AI Governance
+- Cloud Deployment
+- Enterprise Integration
+- Security & Compliance
+- Observability
+- Scalability
 
-This repository provides reusable blueprints for all of these areas.
+This repository provides reusable blueprints for each of these domains.
 
 ---
 
 # 📘 Blueprint Categories
 
-- 🤖 Agentic AI
-- 🧠 Enterprise RAG
-- ☁️ Cloud AI Platforms
-- 🔒 AI Security
-- 📊 AI Governance
-- 🚀 AI Deployment
-- ⚡ LLMOps
-- 📚 Knowledge Graphs
-- 🔄 AI Integration
-- 🌐 Multi-Agent Systems
+## 🤖 Enterprise AI
+
+- AI Operating Models
+- AI Platforms
+- AI Governance
+
+## 🧠 Agentic AI
+
+- Multi-Agent Systems
+- AI Orchestration
+- Autonomous Workflows
+
+## 🔎 Retrieval-Augmented Generation
+
+- Enterprise RAG
+- Vector Databases
+- Hybrid Search
+
+## ☁️ Cloud AI
+
+- AWS
+- Azure
+- Multi-Cloud AI
+
+## ⚙️ Platform Engineering
+
+- Kubernetes
+- Docker
+- CI/CD
+- GitOps
+
+## 🔒 AI Security
+
+- Responsible AI
+- Identity
+- Compliance
+- Enterprise Security
 
 ---
 
-## 🏗 High-Level Architecture
+# 🏗 Reference Architecture
 
 ```mermaid
 flowchart LR
 
-A[Enterprise Data]
+A[Enterprise Data Sources]
 
 A --> B[Knowledge Layer]
 
-B --> C[RAG]
+B --> C[Vector Database]
 
-C --> D[LLM]
+C --> D[RAG Engine]
 
-D --> E[AI Agents]
+D --> E[Large Language Models]
 
-E --> F[Enterprise Applications]
+E --> F[AI Agents]
+
+F --> G[Enterprise Applications]
 ```
 
 ---
@@ -117,25 +150,34 @@ E --> F[Enterprise Applications]
 
 | Layer | Technologies |
 |--------|--------------|
-| AI | OpenAI, Azure AI, Anthropic |
-| Frameworks | LangChain, LangGraph |
-| Search | RAG |
+| AI Models | OpenAI, Azure OpenAI, Anthropic |
+| AI Frameworks | LangChain, LangGraph |
+| Search | RAG, Vector Databases |
 | Cloud | AWS, Azure |
 | Containers | Docker, Kubernetes |
-| DevOps | GitHub Actions |
-| Data | Vector Databases |
+| Platform | GitHub Actions |
+| Infrastructure | Terraform |
+| Languages | Python, TypeScript |
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-blueprints/
-architecture/
-examples/
-templates/
-docs/
-assets/
+enterprise-ai-blueprints
+│
+├── assets/
+├── blueprints/
+├── architecture/
+├── diagrams/
+├── docs/
+├── examples/
+├── templates/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── SECURITY.md
+└── CHANGELOG.md
 ```
 
 ---
@@ -144,40 +186,52 @@ assets/
 
 | Guide | Status |
 |--------|--------|
-| AI Architecture | 🚧 |
-| RAG Blueprint | 🚧 |
-| Agentic AI | 🚧 |
-| AI Governance | 🚧 |
-| Cloud Deployment | 🚧 |
+| Enterprise AI | 🚧 In Progress |
+| Agentic AI | 🚧 In Progress |
+| RAG | 🚧 In Progress |
+| LLMOps | 🚧 In Progress |
+| Cloud Deployment | 🚧 In Progress |
+| AI Governance | 🚧 In Progress |
 
 ---
 
 # 🗺 Roadmap
 
-## Version 1
+## Version 1.0
 
+- [ ] Enterprise AI Blueprint
 - [ ] Enterprise RAG Blueprint
 - [ ] AI Agent Blueprint
 - [ ] AI Governance Blueprint
 - [ ] Cloud Deployment Guide
 
-## Version 2
+## Version 2.0
 
 - [ ] Multi-Agent Architecture
 - [ ] AI Security Blueprint
 - [ ] Enterprise AI Operating Model
+- [ ] Enterprise Knowledge Graph
+- [ ] AI Reference Implementation
+
+## Future
+
+- [ ] Industry-specific AI Architectures
+- [ ] Multi-Cloud AI Patterns
+- [ ] AI Benchmark Architectures
 
 ---
 
 # 🌍 Community
 
-⭐ Star the repository
+We welcome architects, engineers, researchers, and AI practitioners.
 
-🐛 Report Issues
+You can contribute by:
 
-💡 Share Ideas
-
-🤝 Submit Pull Requests
+- ⭐ Starring the repository
+- 🐛 Reporting issues
+- 💡 Suggesting new blueprints
+- 🤝 Submitting pull requests
+- 💬 Participating in discussions
 
 ---
 
@@ -189,8 +243,10 @@ MIT License
 
 <p align="center">
 
-Built with ❤️ by Enterprise Intelligence Lab
+Built with ❤️ by <strong>Enterprise Intelligence Lab</strong>
 
 🌐 https://www.enterpriseintelligencelab.com
+
+⭐ If you find this repository useful, please consider giving it a star.
 
 </p>
